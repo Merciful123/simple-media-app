@@ -1,4 +1,4 @@
-## Built this API using Express Js and MongoDB and deployed to Digital ocean.
+## Built this API using Express Js and MongoDB and deployed to render.
 
 
 #### Instructions to start using api

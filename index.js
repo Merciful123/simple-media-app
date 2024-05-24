@@ -24,8 +24,11 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["https://simplemediaapp.netlify.app", "http://127.0.0.1:5173"],
-    methods: "GET,POST",
+    origin: [
+      "https://simplemediaapp.netlify.app",
+      "http://127.0.0.1:5173",
+      "http://localhost:5173",
+    ],
   })
 );
 // app.use((req, res, next) => {
